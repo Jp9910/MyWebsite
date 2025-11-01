@@ -1,5 +1,6 @@
 import gh from '../assets/github.png'
 import li from '../assets/linkedin.png'
+import email from '../assets/email32x32.png'
 
 function Rodape () {
     return (
@@ -17,10 +18,16 @@ function Rodape () {
                                 <img src={li} alt="Linkedin Logo"/>
                             </a>
                         </li>
+                        <li className="">
+                            <a href="mailto:secundo.jp@gmail.com" target="_blank" rel="noreferrer">
+                                <img src={email} alt="Send Email Icon"/>
+                            </a>
+                        </li>
                     </div>
                 </ul>
             </section>
-            <section className='self-center'>
+            <section className='flex self-center'>
+                <p className="mr-1">© João Paulo Secundo, 2025 |</p>
                 <a href="#section-navbar" className="flex gap-2">
                     Back to Top
                     <img src="src/assets/up-arrow.svg" alt="arrow up" className="flex-1 w-5 h-5 mt-1"/>

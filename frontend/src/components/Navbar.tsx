@@ -30,7 +30,12 @@ function NavBar() {
             <nav className="bg-white dark:bg-gray-800 w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
                 <section className="max-w-7xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                        <img src="src/assets/letraJ.png" className="h-8" alt="PFP" />
+                        {/* <img src="src/assets/letraJ.png" className="h-8" alt="PFP" rounded-sm /> */}
+
+                        <div className="relative inline-flex items-center justify-center w-10 h-10 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600">
+                            <span className="font-medium text-gray-600 dark:text-gray-300">JS</span>
+                        </div>
+
                         <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">João Secundo</span>
                     </Link>
                     <section className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
