@@ -1,7 +1,6 @@
 // https://flowbite.com/docs/components/navbar/
 
 import NavbarSpacing from "./NavbarSpacing";
-import BotaoEstilizado from "./BotaoEstilizado";
 import { Link, useLocation } from "react-router";
 
 function NavBar() {

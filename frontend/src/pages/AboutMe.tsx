@@ -1,4 +1,3 @@
-import BotaoEstilizado from "../components/BotaoEstilizado"
 import emailIcon from '../assets/email32x32.png'
 import phoneIcon from '../assets/phone.png'
 import controllerIcon from '../assets/controller.png'
