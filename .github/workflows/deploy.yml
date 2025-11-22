@@ -30,17 +30,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v5
-      - name: Display files and navigate
-        run: pwd && ls -R . && cd ./frontend
+      - name: Display structure of downloaded files
+        run: pwd && ls -R .
       - name: Set up Node
         uses: actions/setup-node@v6
         with:
-          node-version: lts/*
+          node-version: 22.x # ou "lts/*"
           cache: 'npm'
       - name: Install dependencies
-        run: npm ci
+        run: cd ./frontend && npm ci
       - name: Build
-        run: npm run build
+        run: cd ./frontend && npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
