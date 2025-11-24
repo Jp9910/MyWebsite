@@ -10,17 +10,20 @@ import Blog from './pages/Blog'
 
 // https://github.com/alura-cursos/aluroni-router/blob/main/src/routes.tsx
 function Roteador() {
+    // const url = window.location.href.split("/")
+    // console.log("url:",url)
     return (
         <BrowserRouter>
             <ContainerCaixa>
                 <NavBar />
                 <Routes>
-                        <Route path="/" element={<AboutMeEnglish />}/>
+                        <Route path="/website/" element={<AboutMeEnglish />}/>
                         <Route path="*" element={<NotFound />}/>
-                        <Route path="/resume" element={<Resume />}/>
-                        <Route path="/portfolio" element={<Portfolio />}/>
-                        <Route path="/blog" element={<Blog />}/>
-                        <Route path="/MyWebsite" element={<Navigate to="/" replace />}/>
+                        <Route path="/website/resume" element={<Resume />}/>
+                        <Route path="/website/portfolio" element={<Portfolio />}/>
+                        <Route path="/website/blog" element={<Blog />}/>
+                        <Route path="/*" element={<Navigate to="/website" replace />}/>
+                        {/* <Route path="/MyWebsite" element={<Navigate to="/" replace />}/> */}
                 </Routes>
                 <Rodape />
             </ContainerCaixa>

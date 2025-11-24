@@ -1,6 +1,7 @@
 import gh from '../assets/github.png'
 import li from '../assets/linkedin.png'
 import email from '../assets/email32x32.png'
+import upArrow from '../assets/up-arrow.svg'
 
 function Rodape () {
     return (
@@ -30,7 +31,7 @@ function Rodape () {
                 <p className="mr-1">© João Paulo Secundo, 2025 |</p>
                 <a href="#section-navbar" className="flex gap-2">
                     Back to Top
-                    <img src="src/assets/up-arrow.svg" alt="arrow up" className="flex-1 w-5 h-5 mt-1"/>
+                    <img src={upArrow} alt="arrow up" className="flex-1 w-5 h-5 mt-1"/>
                 </a>
             </section>
         </footer>

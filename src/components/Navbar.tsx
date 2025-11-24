@@ -40,7 +40,7 @@ function NavBar() {
                     <section className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
                         <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 dark:border-gray-700">
                             <li>
-                                <Link to="/" id="navbar-link-home" 
+                                <Link to="/website/" id="navbar-link-home" 
                                     className={`${localUrl.pathname==="/" ? "md:text-blue-700 md:dark:text-blue-500" : ""}
                                     block py-2 px-3 rounded-sm md:p-0 
                                     md:hover:text-blue-700
@@ -50,7 +50,7 @@ function NavBar() {
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/portfolio" id="navbar-link-portfolio"
+                                <Link to="/website/portfolio" id="navbar-link-portfolio"
                                     className={`${localUrl.pathname==="/portfolio" ? "md:text-blue-700 md:dark:text-blue-500" : ""}
                                     block py-2 px-3 rounded-sm md:p-0
                                     text-gray-900 
@@ -61,7 +61,7 @@ function NavBar() {
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/resume" id="navbar-link-resume"
+                                <Link to="/website/resume" id="navbar-link-resume"
                                     className={`${localUrl.pathname==="/resume" ? "md:text-blue-700 md:dark:text-blue-500" : ""}
                                     block py-2 px-3 rounded-sm md:p-0
                                     text-gray-900 
@@ -72,7 +72,7 @@ function NavBar() {
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/blog" id="navbar-link-blog"
+                                <Link to="/website/blog" id="navbar-link-blog"
                                     className={`${localUrl.pathname==="/blog" ? "md:text-blue-700 md:dark:text-blue-500" : ""}
                                     block py-2 px-3 rounded-sm md:p-0
                                     text-gray-900 
