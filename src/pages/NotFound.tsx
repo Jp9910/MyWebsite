@@ -8,12 +8,12 @@ function NotFound () {
             <div className="grid grid-flow-col grid-rows-3 gap-4">
                 <div className=" row-span-3 row-start-12"></div>
                 <div className="flex justify-center items-center gap-2 row-start-3 row-span-2 row-end-12">
-                    <b className="">Ops, página não encontrada!</b>
+                    <b className="">Oops, page not found!</b>
                 </div>
             <div className="row-start-1 row-end-4"></div>
             </div>
             <div className="flex justify-center">
-                <BotaoEstilizado aoClicar={() => {navigate('/')}} > {"< Retornar"} </BotaoEstilizado>
+                <BotaoEstilizado aoClicar={() => {navigate('/website')}} > {"< Return"} </BotaoEstilizado>
             </div>
         </div>
     )

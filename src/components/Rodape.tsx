@@ -5,7 +5,7 @@ import upArrow from '../assets/up-arrow.svg'
 
 function Rodape () {
     return (
-        <footer className="flex bottom-0 w-full bg-white dark:bg-gray-800 justify-between px-5 mt-3 items-center border-t border-gray-200 dark:border-gray-600">
+        <footer className="flex bottom-0 w-full bg-white dark:bg-gray-800 justify-between px-5 mt-8 items-center border-t border-gray-200 dark:border-gray-600">
             <section className='self-center mt-3'>
                 <ul>
                     <div className="flex justify-center space-x-5">

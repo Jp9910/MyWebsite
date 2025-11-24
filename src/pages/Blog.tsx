@@ -1,7 +1,7 @@
 function Blog() {
     return (
-        <div>
-            <h1>Blog em construção</h1>
+        <div id="pagina" className="min-h-175 h-auto">
+            <h1 className="flex justify-center">Blog under construction</h1>
         </div>
     )
 }
